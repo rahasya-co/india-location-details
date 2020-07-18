@@ -1,0 +1,32 @@
+{
+  "name": "india-location-details",
+  "version": "1.0.0",
+  "description": "npm package to fetch data of india location, based on pincode, state name, city name",
+  "main": "india-location-details.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahasya-co/india-location-details.git"
+  },
+  "keywords": [
+    "location",
+    "India",
+    "details",
+    "state",
+    "city",
+    "pincode",
+    "district"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rahasya-co/india-location-details.git/issues"
+  },
+  "homepage": "https://github.com/rahasya-co/india-location-details.git#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "lodash.pick": "^4.4.0"
+  }
+}
