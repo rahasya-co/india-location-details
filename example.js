@@ -18,13 +18,7 @@ var Fields = [
   "latitude",
 ];
 
-InLocation.fetchStateData(
-  (offset = 0),
-  (limit = 10),
-  "maharashtra",
-  (requiredFields = ["divisionname", "regionname", "pincode"]),
-  (api_key = "[YOUR_API_KEY]")
-)
+InLocation.fetchStateData((offset = 0),(limit = 10),"maharashtra",(requiredFields = ["divisionname", "regionname", "pincode"]),(api_key = "[YOUR_API_KEY]"))
   .then((result) => {
     if (result.error) {
       console.log(result.error);
