@@ -31,6 +31,11 @@ india-location-details package is to get details about Indian locations based on
 
 ## Usage
 
+### Installation
+```
+npm i india-location-details
+```
+
 ### Generate API key
 
 ```
